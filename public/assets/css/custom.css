@@ -1,0 +1,79 @@
+.pagination {
+    margin: 0;
+}
+
+.loading {
+    background: rgb(220, 220, 220);
+    color: rgb(220, 220, 220);
+}
+
+.table-loading td p {
+    width: 50%;
+    background: rgb(220, 220, 220);
+    color: rgb(220, 220, 220);
+    margin: 0;
+}
+
+.pagination.loading {
+    width: 150px;
+    height: 25px;
+    border-radius: 0;
+    background: rgb(220, 220, 220);
+}
+
+.right {
+    display: flex;
+}
+
+.btn-right-panel {
+    margin-right: 2rem;
+}
+
+.search-group {
+    padding: .2rem .3rem;
+    border: 1px solid #999;
+    border-radius: 50px;
+}
+
+.search-group i {
+    padding: 0 .5rem;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.btn-table-action {
+    border: none;
+    border-radius: 3px;
+    padding: .3rem .6rem;
+    color: #fff;
+    transition: .3s;
+}
+
+.btn-table-action.acc {
+    background: #40cc24;
+}
+
+.btn-table-action.acc:hover {
+    background: #40b927;
+}
+
+.btn-table-action.edit {
+    background: #ffaa00;
+}
+
+.btn-table-action.edit:hover {
+    background: #e69900;
+}
+
+.btn-table-action.delete {
+    background: #df2020;
+}
+
+.btn-table-action.delete:hover {
+    background: #c91d1d;
+}
